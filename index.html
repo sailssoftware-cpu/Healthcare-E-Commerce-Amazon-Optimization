@@ -5,11 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- PRIMARY SEO -->
-<title>Healthcare E-Commerce Transformation: 25% Sales Growth in 6 Months | Sails Software Case Study</title>
-<meta name="description" content="Discover how Sails Software reversed a 50% sales decline for a U.S. healthcare e-commerce pharmacy — achieving 25% revenue growth in 6 months using ML-powered pricing, real-time dashboards, and predictive analytics.">
+<title>Healthcare E-Commerce Transformation: 25% Sales Growth | Sails Software</title>
+<meta name="description" content="Sails Software reversed a 50% sales decline for a U.S. healthcare pharmacy — 25% revenue growth in 6 months via ML pricing, dashboards, and predictive analytics.">
 <meta name="keywords" content="healthcare ecommerce AI, Amazon Buy Box optimization, ML repricing tool, e-commerce analytics, sales recovery, Sails Software, healthcare pharmacy ecommerce, predictive analytics, data engineering, Snowflake dbt Airflow">
 <meta name="author" content="Sails Software Inc.">
 <meta name="robots" content="index, follow">
+
+<!-- AEO: Voice & AI search signals -->
+<meta name="speakable" content="true">
+<meta name="classification" content="Case Study, Artificial Intelligence, Software Engineering">
+<meta name="category" content="AI, Data Engineering, Enterprise Software">
+<meta name="coverage" content="Worldwide">
 <link rel="canonical" href="https://sailssoftware.com/case-studies/healthcare-ecommerce-transformation">
 
 <!-- OPEN GRAPH -->
@@ -101,17 +107,17 @@
     {
       "@type": "Question",
       "name": "How did Sails Software reverse the 50% sales decline for the healthcare e-commerce client?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sails deployed a multi-pronged data-driven approach: custom real-time dashboards for leadership visibility, a Machine Learning Re-Pricer to win the Amazon Buy Box dynamically, predictive analytics for demand forecasting, and customer segmentation for cross-selling. These four interventions collectively reversed the 50% decline and delivered 25% revenue growth within 6 months."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Sails Software deployed a multi-pronged data-driven approach: custom real-time dashboards for leadership visibility, a Machine Learning Re-Pricer to win the Amazon Buy Box dynamically, predictive analytics for demand forecasting, and customer segmentation for cross-selling. These four interventions collectively reversed the 50% decline and delivered 25% revenue growth within 6 months."}
     },
     {
       "@type": "Question",
       "name": "What is the Amazon Buy Box and why does winning it matter?",
-      "acceptedAnswer": {"@type": "Answer", "text": "The Amazon Buy Box is the primary purchase button on a product listing. Winning it means your offer is the default when a customer clicks Add to Cart — responsible for the majority of Amazon sales. Sails built an ML Re-Pricer that calculates Buy Box win probability and optimizes pricing in real time."}
+      "acceptedAnswer": {"@type": "Answer", "text": "The Amazon Buy Box is the primary purchase button on a product listing. Winning it means your offer is the default when a customer clicks Add to Cart — responsible for the majority of Amazon sales. Sails Software built an ML Re-Pricer that calculates Buy Box win probability and optimizes pricing in real time."}
     },
     {
       "@type": "Question",
-      "name": "What technology stack did Sails use for this e-commerce transformation?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sails built scalable pipelines using Apache Airflow, dbt, PySpark, and Snowflake. Analytics ran on Power BI and Looker Studio. ML models were tracked via MLflow. DevOps spanned Azure, AWS, and GCP with CI/CD pipelines and agile sprint delivery."}
+      "name": "What technology stack did Sails Software use for this e-commerce transformation?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sails Software built scalable pipelines using Apache Airflow, dbt, PySpark, and Snowflake. Analytics ran on Power BI and Looker Studio. ML models were tracked via MLflow. DevOps spanned Azure, AWS, and GCP with CI/CD pipelines and agile sprint delivery."}
     },
     {
       "@type": "Question",
@@ -126,7 +132,7 @@
     {
       "@type": "Question",
       "name": "What does Sails Software specialize in for e-commerce businesses?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sails specializes in data engineering (Airflow, dbt, Snowflake), analytics (Power BI, Looker Studio, MLflow), machine learning (pricing optimization, demand forecasting, customer segmentation), DevOps (Azure, AWS, GCP, CI/CD), and Amazon marketplace strategy including Buy Box optimization and dynamic repricing."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Sails Software specializes in data engineering (Airflow, dbt, Snowflake), analytics (Power BI, Looker Studio, MLflow), machine learning (pricing optimization, demand forecasting, customer segmentation), DevOps (Azure, AWS, GCP, CI/CD), and Amazon marketplace strategy including Buy Box optimization and dynamic repricing."}
     }
   ]
 }
@@ -269,7 +275,7 @@
   }
   .hero-sub {
     font-size: 1.05rem; font-weight: 400;
-    color: var(--text-muted); max-width: 640px;
+    color: var(--text-muted); max-width: 900px;
     margin-top: 1.25rem; line-height: 1.7;
   }
   .hero-content { animation: fadeUp 0.8s ease both; }
@@ -468,29 +474,37 @@
   /* OUTCOMES */
   .outcomes-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.5rem; margin-top: 2rem; align-items: stretch; }
   .outcome-item {
-    display: grid; grid-template-columns: 52px 1fr;
-    gap: 1.25rem; align-items: start;
+    display: flex; flex-direction: column; gap: 1rem;
     background: var(--bg-card); border: 1px solid rgba(110,193,228,0.15);
-    border-radius: 10px; padding: 1.5rem;
+    border-radius: 10px; padding: 1.75rem;
     transition: box-shadow 0.3s, transform 0.3s;
   }
-  .outcome-item:hover { box-shadow: 0 8px 28px rgba(0,185,255,0.12); transform: translateY(-3px); }
+  .outcome-item:hover { box-shadow: 0 8px 28px rgba(110,193,228,0.12); transform: translateY(-3px); }
+  .outcome-header {
+    display: flex; align-items: center; gap: 1rem;
+  }
   .outcome-num {
     width: 48px; height: 48px; background: var(--bg-accent);
     border: 1px solid rgba(110,193,228,0.2); border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
     font-size: 1rem; font-weight: 600; color: var(--sky); flex-shrink: 0;
   }
-  .outcome-content h3 { font-size: 0.9rem; font-weight: 700; color: var(--text-white); text-transform: none; letter-spacing: normal; margin-bottom: 0.4rem; }
-  .outcome-content p { font-size: 0.875rem; line-height: 1.65; }
-  .outcome-stats-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.65rem; }
-  .outcome-stat {
-    display: inline-flex; align-items: center; gap: 0.35rem;
-    background: rgba(17,172,132,0.1); border: 1px solid rgba(17,172,132,0.3);
-    color: var(--text-white); font-size: 0.75rem; font-weight: 600;
-    padding: 0.2rem 0.65rem; border-radius: 100px;
+  .outcome-title {
+    font-size: 1rem; font-weight: 700; color: var(--text-white);
+    font-family: 'Poppins', sans-serif; margin: 0; line-height: 1.3;
   }
-  .outcome-stat::before { content: '\2191'; color: var(--green); }
+  .outcome-desc {
+    font-size: 0.875rem; line-height: 1.7; color: var(--text-muted); margin: 0;
+  }
+
+  .outcome-stats-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; padding-top: 0.5rem; }
+  .outcome-stat {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    background: var(--bg-accent); border: 1px solid rgba(110,193,228,0.4);
+    color: var(--text-white); font-size: 0.78rem; font-weight: 500;
+    padding: 0.4rem 1rem; border-radius: 6px; white-space: nowrap;
+  }
+  .outcome-stat::before { content: '↑'; color: var(--sky); }
 
   /* IMPACT LIST */
   .impact-list { display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; margin-top: 1.5rem; }
@@ -629,8 +643,8 @@
 
     .insight-box { padding: 1.25rem 1.5rem; }
     .cs-quote { padding: 1.25rem 1.5rem; }
-    .outcome-item { grid-template-columns: 42px 1fr; gap: 1rem; }
-    .outcome-num { width: 42px; height: 42px; font-size: 0.9rem; }
+    .outcome-item { gap: 0.65rem; padding: 1.25rem; }
+    .outcome-num { width: 42px; height: 42px; font-size: 0.9rem; flex-shrink: 0; }
 
     /* Ensure cards always visible on mobile */
     .anim-card, .anim-card.will-animate { opacity: 1 !important; transform: none !important; }
@@ -667,10 +681,10 @@
     .repricer-feature { padding: 1rem; }
     .tech-card { padding: 1.25rem; }
 
-    .outcome-item { grid-template-columns: 38px 1fr; padding: 1.25rem; }
-    .outcome-num { width: 38px; height: 38px; font-size: 0.8rem; }
-    .outcome-content h3 { font-size: 0.85rem; }
-    .outcome-content p { font-size: 0.825rem; }
+    .outcome-item { gap: 0.5rem; padding: 1rem; }
+    .outcome-num { width: 38px; height: 38px; font-size: 0.8rem; flex-shrink: 0; }
+    .outcome-title { font-size: 0.9rem; }
+    .outcome-desc { font-size: 0.825rem; }
 
     .result-big { font-size: 1.75rem; }
     .result-sub { font-size: 0.65rem; }
@@ -696,6 +710,14 @@
       .anim-card, .result-tile { animation: none; opacity: 1; transform: none; transition: none; }
     }
   }
+
+  /* Prevent horizontal scroll */
+  html, body { overflow-x: hidden; }
+  img { max-width: 100%; height: auto; }
+
+
+  /* Outcome card layout: num+title inline, desc below */
+
 </style>
 </head>
 <body>
@@ -705,6 +727,7 @@
   <div class="container hero-content">
     <div class="tag-pill">Case Study · Healthcare E-Commerce · Amazon Optimization</div>
     <h1 class="t-hero"><em>Stronger Sales,</em> Stronger Brand</h1>
+    <p class="hero-sub" style="font-size:0.85rem;opacity:0.7;margin-top:0.5rem;">Healthcare E-Commerce AI Transformation</p>
     <p class="hero-sub">A U.S.-based healthcare e-commerce pharmacy selling medical supplies and PPE went from a 50% sales decline and 18 months of stagnation to 25% revenue growth in just 6 months — powered by machine learning, real-time analytics, and a data-driven strategy by Sails Software Inc.</p>
   </div>
 </div>
@@ -724,30 +747,25 @@
   <div class="container">
     <div class="section-label">The Challenge</div>
     <h2 id="challenge-heading">Five Compounding Problems Stalling a High-Potential Business</h2>
-    <p>In the ever-evolving world of e-commerce, standing still is moving backward. By mid-2023, sales had dropped 50%. From April 2023 to October 2024, numbers stayed stagnant — with no clear roadmap and no recovery strategy.</p>
+    <p>In e-commerce, standing still is moving backward. The business experienced a sharp decline followed by extended stagnation, with no clear roadmap or recovery strategy.</p>
     <div class="challenge-grid">
       <div class="challenge-card anim-card">
-        <div class="challenge-num">01</div>
         <h3>Sharp Revenue Decline</h3>
-        <p>By mid-2023, <strong style="color:var(--sky)">sales dropped 50%</strong> with no clear recovery path. Stagnation persisted for 18 months with no upward momentum.</p>
+        <p>Sales dropped by 50% in an 18 month period with no clear recovery path, and the business struggled to regain momentum.</p>
       </div>
       <div class="challenge-card anim-card">
-        <div class="challenge-num">02</div>
         <h3>Strategic Stagnation</h3>
         <p>With no product owner or strategic guide, decision-making was like sailing without a compass — reactive, directionless, and unable to set a north star.</p>
       </div>
       <div class="challenge-card anim-card">
-        <div class="challenge-num">03</div>
         <h3>No Business Intelligence</h3>
         <p>Key metrics like order defects, margins, shipment accuracy, and profit tracking were entirely missing. The business was operating completely in the dark.</p>
       </div>
       <div class="challenge-card anim-card">
-        <div class="challenge-num">04</div>
         <h3>Amazon Buy Box Battles</h3>
         <p>Without real-time analytics, winning the Amazon Buy Box became a gamble. Pricing wasn't dynamic and visibility was minimal — conversion rates suffered.</p>
       </div>
       <div class="challenge-card anim-card">
-        <div class="challenge-num">05</div>
         <h3>Forecasting Failures</h3>
         <p>The company lacked predictive analytics — unable to forecast demand, cross-sell products, or optimize vendor performance. Growth slipped away constantly.</p>
       </div>
@@ -758,26 +776,26 @@
 <!-- SAILS STEPS IN -->
 <section class="cs-section cs-section-alt" aria-labelledby="turning-heading">
   <div class="container">
-    <div class="section-label">Sails Steps In</div>
+    <div class="section-label">Sails Software Steps In</div>
     <h2 id="turning-heading">The Turning Point — Strategic Partnership and Rapid Diagnosis</h2>
     <div class="cs-quote">
-      <p>"In e-commerce, standing still is moving backward. The healthcare pharmacy needed more than tools — they needed a clear vision, a north star, and a partner who could execute against it. That's exactly what Sails delivered."</p>
+      <p>"In e-commerce, standing still is moving backward. The healthcare pharmacy needed more than tools — they needed a clear vision, a north star, and a partner who could execute against it. That's exactly what Sails Software delivered."</p>
     </div>
     <div class="two-col">
       <div class="block-card accent anim-card">
         <h4>Strategic Partnership</h4>
         <ul>
-          <li>The healthcare e-commerce team partnered with Sails Software Inc. in late 2024</li>
-          <li>Sails embedded as a true growth partner — not just a vendor delivering tools but a strategic co-pilot with clear execution accountability</li>
-          <li>A step-by-step recovery plan was crafted jointly with milestones, ownership, and measurable KPIs defined from day one</li>
+          <li>Sails Software embedded as a true growth partner, not just a technology vendor</li>
+          <li>A structured recovery plan was defined with clear milestones, ownership, and KPIs</li>
+          <li>Execution accountability ensured continuous progress</li>
         </ul>
       </div>
       <div class="block-card outline anim-card">
         <h4 class="white">Diagnosing the Issues</h4>
         <ul>
-          <li>Sails quickly uncovered critical gaps — from <strong>missing dashboards to data delays</strong> affecting every layer of decision-making</li>
-          <li>Root cause analysis revealed no single source of truth for sales, fulfillment, or customer data</li>
-          <li>Pricing strategy was static and reactive — with no mechanism to respond dynamically to competitor moves or Buy Box signals</li>
+          <li>Identified major gaps in dashboards and delayed data pipelines</li>
+          <li>No single source of truth across sales, fulfillment, and customer data</li>
+          <li>Static pricing strategy with no responsiveness to market dynamics</li>
         </ul>
       </div>
     </div>
@@ -789,7 +807,7 @@
   <div class="container">
     <div class="section-label">The Solution</div>
     <h2 id="solution-heading">Powered by Data and Intelligence — Four Precision Interventions</h2>
-    <p>Sails designed and deployed a comprehensive analytics and intelligence platform addressing each challenge directly — transforming blind decision-making into a data-driven competitive advantage.</p>
+    <p>Sails Software designed and deployed a comprehensive analytics and intelligence platform addressing each challenge directly — transforming blind decision-making into a data-driven competitive advantage.</p>
     <div class="solution-grid">
       <div class="solution-card anim-card">
         <div class="solution-head">
@@ -807,7 +825,7 @@
           </div>
           <h3>ML-Powered Re-Pricer</h3>
         </div>
-        <div class="solution-body"><p>Using historical data, demand patterns, and competitor trends, Sails built a machine learning Re-Pricer tool to dynamically win the Amazon Buy Box — turning pricing from guesswork into a precise, data-driven competitive advantage.</p></div>
+        <div class="solution-body"><p>Using historical data, demand patterns, and competitor trends, Sails Software built a machine learning Re-Pricer tool to dynamically win the Amazon Buy Box — turning pricing from guesswork into a precise, data-driven competitive advantage.</p></div>
       </div>
       <div class="solution-card anim-card">
         <div class="solution-head">
@@ -825,7 +843,7 @@
           </div>
           <h3>Cross-Selling Strategy</h3>
         </div>
-        <div class="solution-body"><p>Using customer segmentation, Sails identified product bundles and upsell paths to boost average order value — expanding revenue per customer without increasing acquisition costs.</p></div>
+        <div class="solution-body"><p>Using customer segmentation, Sails Software identified product bundles and upsell paths to boost average order value — expanding revenue per customer without increasing acquisition costs.</p></div>
       </div>
     </div>
     <div class="repricer-box anim-card">
@@ -901,39 +919,39 @@
   <div class="container">
     <div class="section-label">The Results</div>
     <h2 id="results-heading">From a 50% Slump to Sustained, Data-Driven Growth</h2>
-    <p>Within 6 months of partnering with Sails, the healthcare e-commerce brand bounced back stronger than ever — with every improvement grounded in measurable, repeatable data-driven processes.</p>
+    <p>Within 6 months of partnering with Sails Software, the healthcare e-commerce brand bounced back stronger than ever — with every improvement grounded in measurable, repeatable data-driven processes.</p>
     <div class="outcomes-grid">
       <div class="outcome-item anim-card">
-        <div class="outcome-num">01</div>
-        <div class="outcome-content">
-          <h3>25% Sales Revenue Growth</h3>
-          <p>Within 6 months, the client reversed their prolonged sales decline and achieved sustainable revenue increases — driven by ML pricing, better Buy Box win rates, and cross-selling.</p>
-          <div class="outcome-stats-row"><div class="outcome-stat">Reversed from &ndash;50% slump</div></div>
+        <div class="outcome-header">
+          <div class="outcome-num">01</div>
+          <h3 class="outcome-title">25% Sales Revenue Growth</h3>
         </div>
+        <p class="outcome-desc">Within 6 months, the client reversed their prolonged sales decline and achieved sustainable revenue increases — driven by ML pricing, better Buy Box win rates, and cross-selling.</p>
+        <div class="outcome-stats-row"><div class="outcome-stat">Reversed from &ndash;50% slump</div></div>
       </div>
       <div class="outcome-item anim-card">
-        <div class="outcome-num">02</div>
-        <div class="outcome-content">
-          <h3>40% Faster Data Processing</h3>
-          <p>Optimized Snowflake and PySpark workflows cut processing times significantly — freeing up engineering resources and reducing operational costs across the data pipeline.</p>
-          <div class="outcome-stats-row"><div class="outcome-stat">Scalable real-time pipelines</div></div>
+        <div class="outcome-header">
+          <div class="outcome-num">02</div>
+          <h3 class="outcome-title">40% Faster Data Processing</h3>
         </div>
+        <p class="outcome-desc">Optimized Snowflake and PySpark workflows cut processing times significantly — freeing up engineering resources and reducing operational costs across the data pipeline.</p>
+        <div class="outcome-stats-row"><div class="outcome-stat">Scalable real-time pipelines</div></div>
       </div>
       <div class="outcome-item anim-card">
-        <div class="outcome-num">03</div>
-        <div class="outcome-content">
-          <h3>15% Boost in Customer Satisfaction</h3>
-          <p>Personalized product recommendations from customer segmentation, combined with smoother order fulfillment tracking, directly improved the end-to-end customer experience.</p>
-          <div class="outcome-stats-row"><div class="outcome-stat">Personalization + fulfillment gains</div></div>
+        <div class="outcome-header">
+          <div class="outcome-num">03</div>
+          <h3 class="outcome-title">15% Boost in Customer Satisfaction</h3>
         </div>
+        <p class="outcome-desc">Personalized product recommendations from customer segmentation, combined with smoother order fulfillment tracking, directly improved the end-to-end customer experience.</p>
+        <div class="outcome-stats-row"><div class="outcome-stat">Personalization + fulfillment gains</div></div>
       </div>
       <div class="outcome-item anim-card">
-        <div class="outcome-num">04</div>
-        <div class="outcome-content">
-          <h3>Buy Box Wins &amp; Pricing Advantage</h3>
-          <p>By dynamically adjusting prices with the ML Re-Pricer, the client won significantly more Buy Boxes — directly improving conversion rates on the platform's most visible real estate.</p>
-          <div class="outcome-stats-row"><div class="outcome-stat">Dynamic pricing &rarr; higher conversion</div></div>
+        <div class="outcome-header">
+          <div class="outcome-num">04</div>
+          <h3 class="outcome-title">Buy Box Wins &amp; Pricing Advantage</h3>
         </div>
+        <p class="outcome-desc">By dynamically adjusting prices with the ML Re-Pricer, the client won significantly more Buy Boxes — directly improving conversion rates on the platform's most visible real estate.</p>
+        <div class="outcome-stats-row"><div class="outcome-stat">Dynamic pricing &rarr; higher conversion</div></div>
       </div>
     </div>
     <div class="section-label" style="margin-top:2.5rem;">Impact Areas</div>
@@ -951,9 +969,9 @@
   <div class="container">
     <div class="section-label">Why Sails Software</div>
     <h2 id="why-heading">Not Just a Vendor — Your Growth Partner</h2>
-    <p>Sails isn't a tool supplier that hands over a dashboard and walks away. This engagement demonstrates what it means to be embedded as a true growth partner — combining technical depth with strategic clarity and execution accountability.</p>
+    <p>Sails Software isn't a tool supplier that hands over a dashboard and walks away. This engagement demonstrates what it means to be embedded as a true growth partner — combining technical depth with strategic clarity and execution accountability.</p>
     <div class="insight-box anim-card">
-      <p><strong>The Sails Difference:</strong> Most vendors deliver technology. Sails delivers outcomes. By combining data engineering expertise with ML-powered analytics and agile execution, Sails transforms stagnating e-commerce operations into data-driven growth engines — with measurable results in months, not years.</p>
+      <p><strong>The Sails Software Difference:</strong> Most vendors deliver technology. Sails Software delivers outcomes. By combining data engineering expertise with ML-powered analytics and agile execution, Sails Software transforms stagnating e-commerce operations into data-driven growth engines — with measurable results in months, not years.</p>
     </div>
     <div class="two-col">
       <div class="block-card accent anim-card">
@@ -987,38 +1005,38 @@
     <div class="faq-list" role="list">
 
       <div class="faq-item" role="listitem" itemscope itemtype="https://schema.org/Question">
-        <button class="faq-question" aria-expanded="false" aria-controls="faq-a1" id="faq-q1" type="button">
+        <button class="faq-question" aria-expanded="false" onclick="toggleFAQ(this)" aria-controls="faq-a1" id="faq-q1" type="button">
           <span class="faq-q-text" itemprop="name">How did Sails Software reverse the 50% sales decline?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1" itemscope itemtype="https://schema.org/Answer">
-          <p itemprop="text">Sails deployed four interventions: custom real-time dashboards for leadership visibility, an ML Re-Pricer to win the Amazon Buy Box dynamically, predictive analytics for demand forecasting, and customer segmentation for cross-selling. These collectively reversed the 50% decline and delivered 25% revenue growth within 6 months.</p>
+          <p itemprop="text">Sails Software deployed four interventions: custom real-time dashboards for leadership visibility, an ML Re-Pricer to win the Amazon Buy Box dynamically, predictive analytics for demand forecasting, and customer segmentation for cross-selling. These collectively reversed the 50% decline and delivered 25% revenue growth within 6 months.</p>
         </div>
       </div>
 
       <div class="faq-item" role="listitem" itemscope itemtype="https://schema.org/Question">
-        <button class="faq-question" aria-expanded="false" aria-controls="faq-a2" id="faq-q2" type="button">
+        <button class="faq-question" aria-expanded="false" onclick="toggleFAQ(this)" aria-controls="faq-a2" id="faq-q2" type="button">
           <span class="faq-q-text" itemprop="name">What is the Amazon Buy Box and why does winning it matter?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2" itemscope itemtype="https://schema.org/Answer">
-          <p itemprop="text">The Amazon Buy Box is the primary purchase button on a product listing. Winning it means your offer is the default when a customer clicks Add to Cart — responsible for the majority of Amazon sales. Sails built an ML Re-Pricer that calculates Buy Box win probability and optimizes pricing in real time, turning it into a predictable competitive advantage.</p>
+          <p itemprop="text">The Amazon Buy Box is the primary purchase button on a product listing. Winning it means your offer is the default when a customer clicks Add to Cart — responsible for the majority of Amazon sales. Sails Software built an ML Re-Pricer that calculates Buy Box win probability and optimizes pricing in real time, turning it into a predictable competitive advantage.</p>
         </div>
       </div>
 
       <div class="faq-item" role="listitem" itemscope itemtype="https://schema.org/Question">
-        <button class="faq-question" aria-expanded="false" aria-controls="faq-a3" id="faq-q3" type="button">
-          <span class="faq-q-text" itemprop="name">What technology stack did Sails use for this transformation?</span>
+        <button class="faq-question" aria-expanded="false" onclick="toggleFAQ(this)" aria-controls="faq-a3" id="faq-q3" type="button">
+          <span class="faq-q-text" itemprop="name">What technology stack did Sails Software use for this transformation?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3" itemscope itemtype="https://schema.org/Answer">
-          <p itemprop="text">Sails built scalable pipelines using Apache Airflow, dbt, PySpark, and Snowflake. Analytics ran on Power BI and Looker Studio. ML models were tracked via MLflow. DevOps infrastructure spanned Azure, AWS, and GCP with CI/CD pipelines and agile sprint delivery.</p>
+          <p itemprop="text">Sails Software built scalable pipelines using Apache Airflow, dbt, PySpark, and Snowflake. Analytics ran on Power BI and Looker Studio. ML models were tracked via MLflow. DevOps infrastructure spanned Azure, AWS, and GCP with CI/CD pipelines and agile sprint delivery.</p>
         </div>
       </div>
 
       <div class="faq-item" role="listitem" itemscope itemtype="https://schema.org/Question">
-        <button class="faq-question" aria-expanded="false" aria-controls="faq-a4" id="faq-q4" type="button">
-          <span class="faq-q-text" itemprop="name">Why was the healthcare pharmacy struggling before Sails stepped in?</span>
+        <button class="faq-question" aria-expanded="false" onclick="toggleFAQ(this)" aria-controls="faq-a4" id="faq-q4" type="button">
+          <span class="faq-q-text" itemprop="name">Why was the healthcare pharmacy struggling before Sails Software stepped in?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4" itemscope itemtype="https://schema.org/Answer">
@@ -1027,22 +1045,22 @@
       </div>
 
       <div class="faq-item" role="listitem" itemscope itemtype="https://schema.org/Question">
-        <button class="faq-question" aria-expanded="false" aria-controls="faq-a5" id="faq-q5" type="button">
+        <button class="faq-question" aria-expanded="false" onclick="toggleFAQ(this)" aria-controls="faq-a5" id="faq-q5" type="button">
           <span class="faq-q-text" itemprop="name">How quickly can an e-commerce business see results from data and AI investment?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5" itemscope itemtype="https://schema.org/Answer">
-          <p itemprop="text">In this engagement, measurable results appeared within 6 months — including 25% revenue growth, 40% faster data processing, and 15% customer satisfaction improvement. Speed depends on quality of diagnosis, clarity of execution plan, and whether the partner delivers both strategy and implementation. Sails' embedded approach accelerates time-to-impact significantly versus traditional consulting.</p>
+          <p itemprop="text">In this engagement, measurable results appeared within 6 months — including 25% revenue growth, 40% faster data processing, and 15% customer satisfaction improvement. Speed depends on quality of diagnosis, clarity of execution plan, and whether the partner delivers both strategy and implementation. Sails Software' embedded approach accelerates time-to-impact significantly versus traditional consulting.</p>
         </div>
       </div>
 
       <div class="faq-item" role="listitem" itemscope itemtype="https://schema.org/Question">
-        <button class="faq-question" aria-expanded="false" aria-controls="faq-a6" id="faq-q6" type="button">
+        <button class="faq-question" aria-expanded="false" onclick="toggleFAQ(this)" aria-controls="faq-a6" id="faq-q6" type="button">
           <span class="faq-q-text" itemprop="name">What does Sails Software specialize in for e-commerce businesses?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" id="faq-a6" role="region" aria-labelledby="faq-q6" itemscope itemtype="https://schema.org/Answer">
-          <p itemprop="text">Sails specializes in data engineering (Airflow, dbt, Snowflake), analytics (Power BI, Looker Studio, MLflow), machine learning (pricing optimization, demand forecasting, customer segmentation), DevOps (Azure, AWS, GCP, CI/CD), and Amazon marketplace strategy including Buy Box optimization and dynamic repricing.</p>
+          <p itemprop="text">Sails Software specializes in data engineering (Airflow, dbt, Snowflake), analytics (Power BI, Looker Studio, MLflow), machine learning (pricing optimization, demand forecasting, customer segmentation), DevOps (Azure, AWS, GCP, CI/CD), and Amazon marketplace strategy including Buy Box optimization and dynamic repricing.</p>
         </div>
       </div>
 
@@ -1054,7 +1072,7 @@
 <div class="cta-section">
   <div class="container">
     <h2>Ready to Transform Your E-Commerce Performance?</h2>
-    <p class="cta-tagline">Sails isn&#39;t just a vendor &mdash; it&#39;s your growth partner.</p>
+    <p class="cta-tagline">Sails Software isn&#39;t just a vendor &mdash; it&#39;s your growth partner.</p>
     <p class="t-tagline">Let&#39;s discuss how data engineering, ML-powered pricing, and real-time analytics can reverse your sales decline and unlock sustainable revenue growth.</p>
     <a href="https://sailssoftware.com/contact-us/" class="cta-btn">Talk to Our Team</a>
     <a href="https://sailssoftware.com/contact-us/" class="cta-btn outline">Download Case Study</a>
@@ -1065,82 +1083,22 @@
     </p>
   </div>
 </div>
+
 <script>
-(function() {
-  'use strict';
-
-  /* ── FAQ ACCORDION ──────────────────────────────────── */
-  function initFAQ() {
-    var buttons = document.querySelectorAll('.faq-question');
-    if (!buttons.length) return;
-
-    buttons.forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        var isOpen = this.getAttribute('aria-expanded') === 'true';
-        var targetId = this.getAttribute('aria-controls');
-
-        // Close all panels first
-        buttons.forEach(function(b) {
-          b.setAttribute('aria-expanded', 'false');
-          var panel = document.getElementById(b.getAttribute('aria-controls'));
-          if (panel) panel.classList.remove('open');
-        });
-
-        // If it was closed, open it
-        if (!isOpen && targetId) {
-          this.setAttribute('aria-expanded', 'true');
-          var panel = document.getElementById(targetId);
-          if (panel) panel.classList.add('open');
-        }
-      });
-    });
+function toggleFAQ(btn) {
+  var isOpen = btn.getAttribute('aria-expanded') === 'true';
+  var targetId = btn.getAttribute('aria-controls');
+  document.querySelectorAll('.faq-question').forEach(function(b) {
+    b.setAttribute('aria-expanded', 'false');
+    var panel = document.getElementById(b.getAttribute('aria-controls'));
+    if (panel) panel.classList.remove('open');
+  });
+  if (!isOpen && targetId) {
+    btn.setAttribute('aria-expanded', 'true');
+    var panel = document.getElementById(targetId);
+    if (panel) panel.classList.add('open');
   }
-
-  /* ── SCROLL ANIMATIONS ──────────────────────────────── */
-  function initAnimations() {
-    if (!window.IntersectionObserver) return;
-
-    var viewH = window.innerHeight;
-    var cards = document.querySelectorAll('.anim-card');
-
-    cards.forEach(function(el) {
-      var rect = el.getBoundingClientRect();
-      if (rect.top > viewH + 50) {
-        el.classList.add('will-animate');
-      }
-    });
-
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting && entry.target.classList.contains('will-animate')) {
-          var siblings = entry.target.parentElement.querySelectorAll('.anim-card.will-animate');
-          var idx = Array.prototype.indexOf.call(siblings, entry.target);
-          var delay = Math.min(idx * 80, 400);
-          setTimeout(function() {
-            entry.target.classList.add('visible');
-          }, delay);
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
-
-    cards.forEach(function(el) {
-      if (el.classList.contains('will-animate')) observer.observe(el);
-    });
-  }
-
-  /* ── INIT ───────────────────────────────────────────── */
-  function init() {
-    initFAQ();
-    initAnimations();
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-})();
+}
 </script>
 </body>
 </html>
