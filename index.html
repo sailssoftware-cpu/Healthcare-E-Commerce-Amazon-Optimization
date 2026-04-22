@@ -718,6 +718,26 @@
 
   /* Outcome card layout: num+title inline, desc below */
 
+
+  /* Safe area — notched phones (iPhone X+) */
+  @supports (padding: env(safe-area-inset-left)) {
+    .hero, .cta-section, .results-strip {
+      padding-left: max(5%, env(safe-area-inset-left));
+      padding-right: max(5%, env(safe-area-inset-right));
+    }
+    .container {
+      padding-left: max(5%, env(safe-area-inset-left));
+      padding-right: max(5%, env(safe-area-inset-right));
+    }
+  }
+  @media (max-width: 480px) {
+    @supports (padding: env(safe-area-inset-left)) {
+      .hero, .cta-section, .results-strip {
+        padding-left: max(4%, env(safe-area-inset-left));
+        padding-right: max(4%, env(safe-area-inset-right));
+      }
+    }
+  }
 </style>
 </head>
 <body>
